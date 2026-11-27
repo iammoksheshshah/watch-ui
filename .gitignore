@@ -1,0 +1,28 @@
+# Dependencies (left over from the old hand-written Vite skeleton)
+node_modules/
+
+# Logs, temporary and editor files
+*.log
+*.tmp
+tmp-*
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# Raw staging capture: clone/ is the source of truth for the mirror.
+# site/rendered.html is deliberately kept because the report cites it.
+site/assets/
+site/locales/
+site/packages/
+
+# Generated / failed REA working state; the exported bundle is kept.
+analysis/rea-session.json
+analysis/js-analysis.json

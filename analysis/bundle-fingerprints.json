@@ -1,0 +1,168 @@
+﻿{
+  "fingerprints": {
+    "assets/index-Ck-pEZ8v.js": {
+      "bytes": 679701,
+      "hits": {
+        "THREE": 154,
+        "WebGLRenderer": 40,
+        "GLTFLoader": 0,
+        "EXRLoader": 0,
+        "RGBELoader": 0,
+        "three.js": 1,
+        "gsap": 71,
+        "ScrollTrigger": 6,
+        "lenis": 0,
+        "Svelte": 0,
+        "svelte": 18,
+        "WebMCP": 0,
+        "data-section": 0,
+        "locales": 5,
+        "jsons/configs": 0,
+        "hotReplace": 1,
+        "Inter": 82,
+        "typekit": 0
+      }
+    },
+    "assets/the-watch.D6O26wKS.js": {
+      "bytes": 200648,
+      "hits": {
+        "THREE": 0,
+        "WebGLRenderer": 0,
+        "GLTFLoader": 0,
+        "EXRLoader": 0,
+        "RGBELoader": 0,
+        "three.js": 0,
+        "gsap": 3,
+        "ScrollTrigger": 2,
+        "lenis": 28,
+        "Svelte": 0,
+        "svelte": 12,
+        "WebMCP": 0,
+        "data-section": 16,
+        "locales": 0,
+        "jsons/configs": 4,
+        "hotReplace": 1,
+        "Inter": 0,
+        "typekit": 0
+      }
+    },
+    "assets/hotReplace.BfRBVwiW.js": {
+      "bytes": 106087,
+      "hits": {
+        "THREE": 36,
+        "WebGLRenderer": 0,
+        "GLTFLoader": 27,
+        "EXRLoader": 8,
+        "RGBELoader": 0,
+        "three.js": 0,
+        "gsap": 0,
+        "ScrollTrigger": 0,
+        "lenis": 0,
+        "Svelte": 0,
+        "svelte": 0,
+        "WebMCP": 0,
+        "data-section": 0,
+        "locales": 0,
+        "jsons/configs": 0,
+        "hotReplace": 0,
+        "Inter": 6,
+        "typekit": 0
+      }
+    },
+    "assets/fr_FR.DKItQTa6.js": {
+      "bytes": 5497,
+      "hits": {
+        "THREE": 0,
+        "WebGLRenderer": 0,
+        "GLTFLoader": 0,
+        "EXRLoader": 0,
+        "RGBELoader": 0,
+        "three.js": 0,
+        "gsap": 0,
+        "ScrollTrigger": 0,
+        "lenis": 0,
+        "Svelte": 0,
+        "svelte": 0,
+        "WebMCP": 0,
+        "data-section": 0,
+        "locales": 0,
+        "jsons/configs": 0,
+        "hotReplace": 0,
+        "Inter": 0,
+        "typekit": 0
+      }
+    }
+  },
+  "sections": [
+    "Intro",
+    "Timeless",
+    "VerticalText",
+    "Disassembly",
+    "Mechanism",
+    "Movement",
+    "Curves",
+    "MovementWatchRight",
+    "Hands",
+    "Straps",
+    "Images",
+    "Colors",
+    "Parts",
+    "Footer"
+  ],
+  "dataViews": [
+    "Intro",
+    "Disassembly",
+    "Particles",
+    "Presentation",
+    "Straps",
+    "Images",
+    "Colors",
+    "Parts",
+    "Footer"
+  ],
+  "imageCount": 15,
+  "images": [
+    "assets/the-watch/img/images-section/first_1.webp",
+    "assets/the-watch/img/images-section/first_2.webp",
+    "assets/the-watch/img/images-section/first_3.webp",
+    "assets/the-watch/img/images-section/first_4.webp",
+    "assets/the-watch/img/images-section/first_5.webp",
+    "assets/the-watch/img/parts/dial.jpg",
+    "assets/the-watch/img/parts/hands.jpg",
+    "assets/the-watch/img/parts/crystal.jpg",
+    "assets/the-watch/img/parts/bezel.jpg",
+    "assets/the-watch/img/parts/lugs.jpg",
+    "assets/the-watch/img/parts/strap.jpg",
+    "assets/the-watch/img/parts/buckle.jpg",
+    "assets/the-watch/img/parts/crown.jpg",
+    "assets/the-watch/img/parts/caseback.jpg",
+    "assets/the-watch/img/parts/movement.jpg"
+  ],
+  "captions": [
+    "Chronograph",
+    "Automatic Movement",
+    "Case &amp; Finishes",
+    "Dial &amp; Complications",
+    "Automatic Movement",
+    "Diameter",
+    "Self-Winding Movement",
+    "Reliability",
+    "Classic Edition",
+    "Sport Chronograph"
+  ],
+  "titles": [
+    "A contemporary interpretation of the chronograph, combining precision engineering with refined aesthetics. Designed to capture every moment with accuracy and elegance.",
+    "Crafted with meticulous attention to detail, the case alternates between polished and satin-brushed surfaces, creating subtle contrasts that enhance its presence and reflect light with precision.",
+    "The dial reveals a layered composition with refined textures and carefully balanced subdials. Each element is designed to ensure clarity, depth, and a distinctive visual identity.",
+    "The movement regulates the balance wheel for consistent and precise timing",
+    "60",
+    "The movement regulates the balance wheel for consistent and precise timing.",
+    "A timeless design combining elegance and precision for everyday wear."
+  ],
+  "bodyTexts": [
+    "Powered by a high-performance automatic calibre, delivering reliable precision and a smooth, continuous motion visible through every detail of the dial.",
+    "Built to maintain steady performance in a variety of conditions.",
+    "Durable and dynamic, crafted for active lifestyles without compromising style"
+  ],
+  "listItems": []
+}

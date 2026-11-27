@@ -1,0 +1,297 @@
+FILE clone\assets\watch-DXFPNOEl.glb
+GLB {"version":2,"bytes":9008924,"chunks":[{"type":"JSON","len":266716},{"type":"BIN","len":8742180}]}
+ASSET {"generator":"Khronos glTF Blender I/O v5.1.20","version":"2.0"}
+COUNTS {"scenes":1,"nodes":128,"meshes":99,"materials":23,"textures":27,"images":17,"samplers":1,"animations":0,"skins":0,"cameras":0,"accessors":450,"bufferViews":467,"buffers":1,"extensionsUsed":["KHR_materials_transmission","KHR_materials_ior","KHR_texture_transform","EXT_texture_webp"],"extensionsRequired":["KHR_texture_transform","EXT_texture_webp"]}
+SCENE {"name":"baking","rootNodes":[125,126,127],"extrasKeys":["hdri_prop_scn","dream_textures_prompt","NWBusyDrawing","NWLazySource","NWLazyTarget","zen_uv","zen_sets_object_list","zsts_color_palette","zen_sets_object_list_index","ZBBQ_PresetsIncluded","ZBBQ_HasPresetsIncluded","blosm","uuid","assets reported","assets used","UVPackerProps","StkUvEdProps","muv_smooth_uv_enabled","muv_select_uv_enabled","muv_pack_uv_enabled","muv_clip_uv_enabled","muv_align_uv_enabled","amth_wire_toggle_edges_all","amth_wire_toggle_optimal","measureit_gl_precision","measureit_font_size","measureit_gl_show_d","measureit_hide_units","measureit_scale","measureit_scale_factor","measureit_debug","measureit_gl_ghost","measureit_units","measureit_ovr","measureit_hint_space","TLM_EngineProperties","TLM_SceneProperties","SUBSTANCE_SHP_02_cycles_prj_box","loaded_sbsars","sbsar_index","sbsar_redraw","SUBSTANCE_SGI_9D54D88C-8BF4-4AC2-8E9A-7CBCF966BB94","SUBSTANCE_SGI_F79F0202-E477-4E3B-AD0E-35B1904B2711","BBB_props","UnwrellaProps"]}
+
+NODE TREE
+125 theWatch children=14 extrasKeys=["oas_props","UnwrellaObjProps"]
+  0 crystal-front mesh=0(Cube.082) extrasKeys=["oas_props","UnwrellaObjProps"]
+  14 empty-strap children=12 extrasKeys=["oas_props"]
+    1 bracelet.120 mesh=1(Cube.053) extrasKeys=["oas_props","UnwrellaObjProps"]
+    2 clasp-center.004 mesh=2(Cylinder.021) extrasKeys=["MaxHandle","oas_props","UnwrellaObjProps"]
+    3 clasp-screws mesh=3(Mesh.004) extrasKeys=["oas_props","UnwrellaObjProps"]
+    5 crystal-back-structure mesh=5(Cube.068) children=1 extrasKeys=["oas_props","UnwrellaObjProps"]
+      4 crystal-back mesh=4(Cube.083) extrasKeys=["oas_props","UnwrellaObjProps"]
+    6 dial-front.002 mesh=6(Cube.075) extrasKeys=["oas_props","booleans","UnwrellaObjProps"]
+    7 dial-outline mesh=7(Cube.007) extrasKeys=["oas_props","UnwrellaObjProps"]
+    8 dial-toBracelet.012 mesh=8(Cube.011) extrasKeys=["oas_props","UnwrellaObjProps"]
+    9 dial-toBracelet.014 mesh=9(Cube.001) extrasKeys=["oas_props","UnwrellaObjProps"]
+    10 dial-toBracelet.016 mesh=10(Cube.031) extrasKeys=["oas_props","UnwrellaObjProps"]
+    11 xplodedSide-1a mesh=11(Cube.067) extrasKeys=["oas_props","UnwrellaObjProps"]
+    12 xplodedSide-1b mesh=12(Cube.020) extrasKeys=["oas_props","UnwrellaObjProps"]
+    13 xplodedSide-2 mesh=13(Cylinder.026) extrasKeys=["oas_props","UnwrellaObjProps"]
+  15 hand-hours-shadow mesh=14(Plane.005) extrasKeys=["oas_props","rotationTick"]
+  16 hand-hours-shadow.001 mesh=15(Plane.006) extrasKeys=["oas_props","rotationTick"]
+  17 hand-minutes-shadow mesh=16(Plane.002) extrasKeys=["oas_props","rotationTick"]
+  18 screw.001 mesh=17(Cylinder.003) extrasKeys=["oas_props","UnwrellaObjProps"]
+  19 screw.009 mesh=18(Cylinder.004) extrasKeys=["oas_props","UnwrellaObjProps"]
+  20 screw.010 mesh=19(Cylinder.005) extrasKeys=["UnwrellaObjProps"]
+  21 screw.011 mesh=20(Cylinder.006) extrasKeys=["UnwrellaObjProps"]
+  22 screw.012 mesh=21(Cylinder.007) extrasKeys=["UnwrellaObjProps"]
+  23 screw.013 mesh=22(Cylinder.008) extrasKeys=["UnwrellaObjProps"]
+  24 screw.014 mesh=23(Cylinder.009) extrasKeys=["oas_props","UnwrellaObjProps"]
+  25 screw.015 mesh=24(Cylinder.010) extrasKeys=["oas_props","UnwrellaObjProps"]
+  124 xploded children=6 extrasKeys=["oas_props"]
+    39 xploded-10 children=12 extrasKeys=["oas_props","hover","booleans","UnwrellaObjProps"]
+      26 backplate-xploded-1 mesh=25(Cylinder.015) extrasKeys=["UnwrellaObjProps"]
+      27 backplate-xploded-10 mesh=26(Gear.042) extrasKeys=["oas_props","rotationTick","UnwrellaObjProps"]
+      29 backplate-xploded-11 mesh=28(Cylinder.023) children=1 extrasKeys=["oas_props","booleans","UnwrellaObjProps"]
+        28 ruby.040 mesh=27(Cylinder.037)
+      30 backplate-xploded-12 mesh=29(Gear.041) extrasKeys=["oas_props","rotationTick","UnwrellaObjProps"]
+      31 backplate-xploded-2 mesh=30(Cylinder.017) extrasKeys=["UnwrellaObjProps"]
+      32 backplate-xploded-3 mesh=31(Cylinder.016) extrasKeys=["oas_props","UnwrellaObjProps"]
+      33 backplate-xploded-4 mesh=32(Gear.037) extrasKeys=["oas_props","UnwrellaObjProps"]
+      34 backplate-xploded-5 mesh=33(Gear.038) extrasKeys=["oas_props","UnwrellaObjProps"]
+      35 backplate-xploded-6 mesh=34(Gear.039) extrasKeys=["oas_props","rotationTick","UnwrellaObjProps"]
+      36 backplate-xploded-7 mesh=35(Cylinder.031) extrasKeys=["oas_props","UnwrellaObjProps"]
+      37 backplate-xploded-8 mesh=36(Gear.040) extrasKeys=["oas_props","rotationTick","UnwrellaObjProps"]
+      38 backplate-xploded-9 mesh=37(Gear.043) extrasKeys=["oas_props","rotationTick","UnwrellaObjProps"]
+    43 xploded-28 children=3 extrasKeys=["hover","oas_props","booleans"]
+      40 barrel-xploded-1 mesh=38(Gear.028) extrasKeys=["oas_props","rotationTick","UnwrellaObjProps"]
+      41 barrel-xploded-2 mesh=39(Mesh) extrasKeys=["booleans","oas_props","UnwrellaObjProps"]
+      42 barrel-xploded-3 mesh=40(Gear.001) extrasKeys=["oas_props","UnwrellaObjProps"]
+    72 xploded-29 children=20 extrasKeys=["booleans","hover","oas_props","UnwrellaObjProps"]
+      44 mainplate-xploded-1 mesh=41(Cylinder.012) extrasKeys=["oas_props","booleans","UnwrellaObjProps"]
+      45 mainplate-xploded-10 mesh=42(Cylinder.027) extrasKeys=["oas_props","UnwrellaObjProps"]
+      46 mainplate-xploded-11 mesh=43(Cylinder.011) extrasKeys=["UnwrellaObjProps"]
+      47 mainplate-xploded-12 mesh=44(Cylinder.034) extrasKeys=["oas_props","UnwrellaObjProps"]
+      48 mainplate-xploded-13 mesh=45(Cylinder.028) extrasKeys=["oas_props","UnwrellaObjProps"]
+      49 mainplate-xploded-14 mesh=46(Gear.029) extrasKeys=["oas_props","rotationTick","UnwrellaObjProps"]
+      51 mainplate-xploded-15 mesh=48(Gear.036) children=1 extrasKeys=["oas_props","booleans","rotationTick","UnwrellaObjProps"]
+        50 torsion-spring-small mesh=47(Cylinder.032) extrasKeys=["oas_props","UnwrellaObjProps"]
+      52 mainplate-xploded-16 mesh=49(Gear.033) extrasKeys=["oas_props","rotationTick","UnwrellaObjProps"]
+      53 mainplate-xploded-17 mesh=50(Gear.030) extrasKeys=["oas_props","booleans","rotationTick","UnwrellaObjProps"]
+      54 mainplate-xploded-18 mesh=51(Gear.035) extrasKeys=["oas_props","rotationTick","UnwrellaObjProps"]
+      55 mainplate-xploded-19 mesh=52(Gear.034) extrasKeys=["oas_props","booleans","rotationTick","UnwrellaObjProps"]
+      56 mainplate-xploded-2 mesh=53(Cylinder.014) extrasKeys=["oas_props","booleans","UnwrellaObjProps"]
+      60 mainplate-xploded-20 children=3 extrasKeys=["oas_props","rotationTick"]
+        57 moon mesh=54(Gear.051) extrasKeys=["oas_props"]
+        58 moon-bg mesh=55(Gear.052) extrasKeys=["oas_props"]
+        59 moon-bg-back mesh=56(Gear.031) extrasKeys=["oas_props"]
+      61 mainplate-xploded-3 mesh=57(Cube.074) extrasKeys=["oas_props","UnwrellaObjProps"]
+      62 mainplate-xploded-4 mesh=58(Cylinder.013) extrasKeys=["oas_props","UnwrellaObjProps"]
+      63 mainplate-xploded-5 mesh=59(Cube.073) extrasKeys=["oas_props","UnwrellaObjProps"]
+      64 mainplate-xploded-6 mesh=60(Cube.072) extrasKeys=["oas_props","UnwrellaObjProps"]
+      65 mainplate-xploded-7 mesh=61(Plane.012) extrasKeys=["oas_props","UnwrellaObjProps"]
+      70 mainplate-xploded-8 mesh=62(Cylinder.022) children=4 extrasKeys=["oas_props","UnwrellaObjProps"]
+        66 ruby.036 mesh=27(Cylinder.037)
+        67 ruby.037 mesh=27(Cylinder.037)
+        68 ruby.038 mesh=27(Cylinder.037)
+        69 ruby.039 mesh=27(Cylinder.037) extrasKeys=["oas_props"]
+      71 mainplate-xploded-9 mesh=63(Gear.032) extrasKeys=["oas_props","rotationTick","UnwrellaObjProps"]
+    85 xploded-42 children=2 extrasKeys=["oas_props","hover"]
+      83 tourbillon children=6 extrasKeys=["oas_props","rotationTick"]
+        74 tourbillon-xploded-2 mesh=64(Gear.050) children=1 extrasKeys=["oas_props"]
+          73 ruby.002 mesh=27(Cylinder.037) extrasKeys=["oas_props"]
+        75 tourbillon-xploded-3 mesh=65(Mesh.005) extrasKeys=["oas_props"]
+        76 tourbillon-xploded-4 mesh=66(Cylinder.035) extrasKeys=["oas_props","rotationBackForth"]
+        77 tourbillon-xploded-5 mesh=67(Mesh.006) extrasKeys=["oas_props"]
+        79 tourbillon-xploded-6 mesh=69(Cube.079) children=1 extrasKeys=["oas_props","rotationBackForth"]
+          78 tourbillon-6-a mesh=68(Cube.084) extrasKeys=["oas_props"]
+        82 tourbillon-xploded-7 mesh=70(Cube.080) children=2 extrasKeys=["oas_props"]
+          80 ruby.047 mesh=27(Cylinder.037) extrasKeys=["oas_props"]
+          81 ruby.048 mesh=27(Cylinder.037) extrasKeys=["oas_props"]
+      84 tourbillon-xploded-1 mesh=71(Gear.044) extrasKeys=["oas_props","UnwrellaObjProps"]
+    102 xploded-45 children=5 extrasKeys=["oas_props","hover"]
+      95 dial-xploded-1 children=7 extrasKeys=["oas_props","booleans"]
+        86 automatic-chronograph mesh=72(Plane.001) extrasKeys=["oas_props","UnwrellaObjProps"]
+        89 dial-background mesh=75(Circle.005) children=2 extrasKeys=["oas_props","UnwrellaObjProps"]
+          87 dial-background-gray mesh=73(Circle.007) extrasKeys=["BoolToolRoot","oas_props","UnwrellaObjProps"]
+          88 glowdial mesh=74(Circle.003) extrasKeys=["oas_props","UnwrellaObjProps"]
+        90 fs60p mesh=76(Plane.027) extrasKeys=["oas_props","UnwrellaObjProps"]
+        91 hours-bars-metal mesh=77(Plane.011) extrasKeys=["oas_props","UnwrellaObjProps"]
+        92 numbers mesh=78(Plane.013) extrasKeys=["oas_props","UnwrellaObjProps"]
+        93 seconds-moonphase mesh=79(Plane.026) extrasKeys=["oas_props"]
+        94 seconds-steps mesh=80(Plane.014) extrasKeys=["oas_props","UnwrellaObjProps"]
+      96 dial-xploded-2 mesh=81(Cylinder.001) extrasKeys=["oas_props","rotationTick"]
+      98 dial-xploded-3 mesh=83(Cube.078) children=1 extrasKeys=["oas_props","rotationTick","UnwrellaObjProps"]
+        97 hand-hours-glow mesh=82(Plane.003) extrasKeys=["oas_props","UnwrellaObjProps"]
+      100 dial-xploded-4 mesh=85(Cube.081) children=1 extrasKeys=["oas_props","booleans","rotationTick","UnwrellaObjProps"]
+        99 hand-minutes-glow mesh=84(Plane) extrasKeys=["oas_props","UnwrellaObjProps"]
+      101 dial-xploded-5 mesh=86(Cube.076) extrasKeys=["oas_props","UnwrellaObjProps"]
+    123 xploded-9 children=10 extrasKeys=["oas_props","hover","booleans"]
+      103 weight-xploded-1 mesh=87(Cylinder.018) extrasKeys=["oas_props","UnwrellaObjProps"]
+      107 weight-xploded-10 mesh=88(Cylinder.029) children=3 extrasKeys=["oas_props","UnwrellaObjProps"]
+        104 ruby.041 mesh=27(Cylinder.037)
+        105 ruby.042 mesh=27(Cylinder.037)
+        106 ruby.043 mesh=27(Cylinder.037)
+      108 weight-xploded-2 mesh=89(Cylinder.036) extrasKeys=["oas_props","UnwrellaObjProps"]
+      109 weight-xploded-3 mesh=90(Cylinder.033) extrasKeys=["UnwrellaObjProps"]
+      110 weight-xploded-4 mesh=91(Gear.049) extrasKeys=["oas_props","UnwrellaObjProps"]
+      118 weight-xploded-5 mesh=92(Cylinder.024) children=7 extrasKeys=["oas_props","UnwrellaObjProps"]
+        111 ruby.001 mesh=27(Cylinder.037) extrasKeys=["oas_props"]
+        112 ruby.033 mesh=27(Cylinder.037) extrasKeys=["oas_props"]
+        113 ruby.034 mesh=27(Cylinder.037)
+        114 ruby.035 mesh=27(Cylinder.037)
+        115 ruby.044 mesh=27(Cylinder.037) extrasKeys=["oas_props"]
+        116 ruby.045 mesh=27(Cylinder.037)
+        117 ruby.046 mesh=27(Cylinder.037)
+      119 weight-xploded-6 mesh=93(Gear.045) extrasKeys=["oas_props","UnwrellaObjProps"]
+      120 weight-xploded-7 mesh=94(Gear.047) extrasKeys=["oas_props","rotationTick","UnwrellaObjProps"]
+      121 weight-xploded-8 mesh=95(Gear.048) extrasKeys=["oas_props","UnwrellaObjProps"]
+      122 weight-xploded-9 mesh=96(Gear.046) extrasKeys=["oas_props","UnwrellaObjProps"]
+126 single-link mesh=97(Cube.002) extrasKeys=["oas_props","UnwrellaObjProps"]
+127 single-central-link mesh=98(Cube.003) extrasKeys=["oas_props","UnwrellaObjProps"]
+MAX_DEPTH 5
+
+MESHES
+0 Cube.082 prims=1 mats=[0] tris=2688 verts=1346 extrasKeys=undefined
+1 Cube.053 prims=1 mats=[1] tris=16184 verts=14883 extrasKeys=["colorValue"]
+2 Cylinder.021 prims=1 mats=[1] tris=760 verts=808 extrasKeys=["colorValue"]
+3 Mesh.004 prims=1 mats=[2] tris=592 verts=456 extrasKeys=["colorValue"]
+4 Cube.083 prims=1 mats=[0] tris=2688 verts=1346 extrasKeys=undefined
+5 Cube.068 prims=1 mats=[2] tris=2944 verts=2052 extrasKeys=["colorValue"]
+6 Cube.075 prims=2 mats=[1] tris=4224 verts=3312 extrasKeys=undefined
+7 Cube.007 prims=1 mats=[1] tris=3954 verts=2711 extrasKeys=undefined
+8 Cube.011 prims=1 mats=[1] tris=892 verts=822 extrasKeys=undefined
+9 Cube.001 prims=1 mats=[1] tris=892 verts=822 extrasKeys=undefined
+10 Cube.031 prims=1 mats=[2] tris=8432 verts=7397 extrasKeys=undefined
+11 Cube.067 prims=1 mats=[2] tris=172 verts=268 extrasKeys=["colorValue"]
+12 Cube.020 prims=1 mats=[2] tris=172 verts=196 extrasKeys=undefined
+13 Cylinder.026 prims=1 mats=[2] tris=864 verts=992 extrasKeys=undefined
+14 Plane.005 prims=1 mats=[3] tris=2 verts=4 extrasKeys=undefined
+15 Plane.006 prims=1 mats=[3] tris=2 verts=4 extrasKeys=undefined
+16 Plane.002 prims=1 mats=[3] tris=2 verts=4 extrasKeys=undefined
+17 Cylinder.003 prims=1 mats=[2] tris=546 verts=402 extrasKeys=["colorValue"]
+18 Cylinder.004 prims=1 mats=[2] tris=546 verts=402 extrasKeys=["colorValue"]
+19 Cylinder.005 prims=1 mats=[2] tris=546 verts=402 extrasKeys=["colorValue"]
+20 Cylinder.006 prims=1 mats=[2] tris=546 verts=402 extrasKeys=["colorValue"]
+21 Cylinder.007 prims=1 mats=[2] tris=546 verts=402 extrasKeys=["colorValue"]
+22 Cylinder.008 prims=1 mats=[2] tris=546 verts=402 extrasKeys=["colorValue"]
+23 Cylinder.009 prims=1 mats=[2] tris=546 verts=402 extrasKeys=["colorValue"]
+24 Cylinder.010 prims=1 mats=[2] tris=546 verts=402 extrasKeys=["colorValue"]
+25 Cylinder.015 prims=1 mats=[4] tris=546 verts=450 extrasKeys=["colorValue"]
+26 Gear.042 prims=1 mats=[4] tris=4486 verts=5608 extrasKeys=undefined
+27 Cylinder.037 prims=1 mats=[5] tris=96 verts=72 extrasKeys=undefined
+28 Cylinder.023 prims=2 mats=[6,7] tris=2802 verts=3003 extrasKeys=undefined
+29 Gear.041 prims=1 mats=[4] tris=2116 verts=2184 extrasKeys=undefined
+30 Cylinder.017 prims=1 mats=[4] tris=546 verts=450 extrasKeys=["colorValue"]
+31 Cylinder.016 prims=1 mats=[4] tris=546 verts=450 extrasKeys=["colorValue"]
+32 Gear.037 prims=1 mats=[4] tris=668 verts=873 extrasKeys=undefined
+33 Gear.038 prims=1 mats=[4] tris=668 verts=842 extrasKeys=undefined
+34 Gear.039 prims=1 mats=[8] tris=3912 verts=4735 extrasKeys=undefined
+35 Cylinder.031 prims=1 mats=[4] tris=572 verts=821 extrasKeys=undefined
+36 Gear.040 prims=1 mats=[4] tris=3468 verts=3712 extrasKeys=undefined
+37 Gear.043 prims=1 mats=[8] tris=4075 verts=5165 extrasKeys=undefined
+38 Gear.028 prims=1 mats=[4] tris=8028 verts=8744 extrasKeys=undefined
+39 Mesh prims=1 mats=[4] tris=2892 verts=2707 extrasKeys=undefined
+40 Gear.001 prims=1 mats=[4] tris=456 verts=516 extrasKeys=undefined
+41 Cylinder.012 prims=1 mats=[4] tris=546 verts=450 extrasKeys=["colorValue"]
+42 Cylinder.027 prims=1 mats=[4] tris=378 verts=423 extrasKeys=undefined
+43 Cylinder.011 prims=1 mats=[4] tris=546 verts=450 extrasKeys=["colorValue"]
+44 Cylinder.034 prims=1 mats=[9] tris=1736 verts=2514 extrasKeys=["rotationStep","rotationValue"]
+45 Cylinder.028 prims=1 mats=[4] tris=266 verts=268 extrasKeys=undefined
+46 Gear.029 prims=1 mats=[4] tris=4066 verts=4452 extrasKeys=undefined
+47 Cylinder.032 prims=1 mats=[4] tris=364 verts=416 extrasKeys=["colorValue"]
+48 Gear.036 prims=1 mats=[4] tris=3060 verts=3266 extrasKeys=undefined
+49 Gear.033 prims=1 mats=[4] tris=2786 verts=3336 extrasKeys=undefined
+50 Gear.030 prims=1 mats=[4] tris=4514 verts=4932 extrasKeys=undefined
+51 Gear.035 prims=1 mats=[4] tris=2666 verts=2912 extrasKeys=undefined
+52 Gear.034 prims=1 mats=[4] tris=2366 verts=2859 extrasKeys=undefined
+53 Cylinder.014 prims=1 mats=[4] tris=546 verts=450 extrasKeys=["colorValue"]
+54 Gear.051 prims=1 mats=[10] tris=60 verts=64 extrasKeys=undefined
+55 Gear.052 prims=1 mats=[11] tris=30 verts=32 extrasKeys=["Gear","change","number_of_teeth","radius","addendum","dedendum","base","angle","width","skew","conangle","crown"]
+56 Gear.031 prims=1 mats=[11] tris=732 verts=1004 extrasKeys=undefined
+57 Cube.074 prims=1 mats=[4] tris=264 verts=374 extrasKeys=undefined
+58 Cylinder.013 prims=1 mats=[4] tris=546 verts=450 extrasKeys=["colorValue"]
+59 Cube.073 prims=1 mats=[4] tris=312 verts=332 extrasKeys=undefined
+60 Cube.072 prims=1 mats=[4] tris=257 verts=277 extrasKeys=undefined
+61 Plane.012 prims=1 mats=[4] tris=356 verts=425 extrasKeys=undefined
+62 Cylinder.022 prims=2 mats=[7,6] tris=4886 verts=5203 extrasKeys=undefined
+63 Gear.032 prims=1 mats=[4] tris=2816 verts=3495 extrasKeys=undefined
+64 Gear.050 prims=1 mats=[8] tris=1878 verts=2100 extrasKeys=undefined
+65 Mesh.005 prims=1 mats=[8] tris=1908 verts=2056 extrasKeys=["separateAo","colorValue","prop"]
+66 Cylinder.035 prims=1 mats=[8] tris=500 verts=566 extrasKeys=undefined
+67 Mesh.006 prims=1 mats=[8] tris=2438 verts=3220 extrasKeys=["rotationTick"]
+68 Cube.084 prims=1 mats=[5] tris=20 verts=40 extrasKeys=undefined
+69 Cube.079 prims=1 mats=[8] tris=392 verts=457 extrasKeys=["separateAo","colorValue","rotationValue"]
+70 Cube.080 prims=1 mats=[8] tris=1340 verts=1589 extrasKeys=undefined
+71 Gear.044 prims=1 mats=[4] tris=4680 verts=5453 extrasKeys=undefined
+72 Plane.001 prims=1 mats=[12] tris=2 verts=4 extrasKeys=undefined
+73 Circle.007 prims=1 mats=[2] tris=1634 verts=1730 extrasKeys=undefined
+74 Circle.003 prims=1 mats=[13] tris=30 verts=32 extrasKeys=undefined
+75 Circle.005 prims=1 mats=[14] tris=210 verts=212 extrasKeys=undefined
+76 Plane.027 prims=1 mats=[15] tris=2 verts=4 extrasKeys=undefined
+77 Plane.011 prims=2 mats=[2,16] tris=946 verts=990 extrasKeys=["colorValue"]
+78 Plane.013 prims=1 mats=[17] tris=38 verts=76 extrasKeys=undefined
+79 Plane.026 prims=1 mats=[18] tris=332 verts=334 extrasKeys=undefined
+80 Plane.014 prims=1 mats=[19] tris=562 verts=996 extrasKeys=undefined
+81 Cylinder.001 prims=1 mats=[8] tris=112 verts=108 extrasKeys=undefined
+82 Plane.003 prims=1 mats=[13] tris=2 verts=4 extrasKeys=undefined
+83 Cube.078 prims=2 mats=[8,20] tris=460 verts=370 extrasKeys=undefined
+84 Plane prims=1 mats=[13] tris=2 verts=4 extrasKeys=undefined
+85 Cube.081 prims=2 mats=[8,20] tris=460 verts=367 extrasKeys=undefined
+86 Cube.076 prims=1 mats=[8] tris=544 verts=501 extrasKeys=undefined
+87 Cylinder.018 prims=1 mats=[4] tris=546 verts=450 extrasKeys=["colorValue"]
+88 Cylinder.029 prims=1 mats=[4] tris=764 verts=697 extrasKeys=undefined
+89 Cylinder.036 prims=2 mats=[7,6] tris=3446 verts=2489 extrasKeys=["hover"]
+90 Cylinder.033 prims=1 mats=[4] tris=546 verts=450 extrasKeys=["colorValue"]
+91 Gear.049 prims=1 mats=[4] tris=3008 verts=3682 extrasKeys=undefined
+92 Cylinder.024 prims=2 mats=[6,7] tris=3472 verts=3784 extrasKeys=undefined
+93 Gear.045 prims=1 mats=[4] tris=3490 verts=4574 extrasKeys=undefined
+94 Gear.047 prims=1 mats=[4] tris=3522 verts=4518 extrasKeys=undefined
+95 Gear.048 prims=1 mats=[4] tris=3848 verts=5149 extrasKeys=undefined
+96 Gear.046 prims=1 mats=[4] tris=3114 verts=3392 extrasKeys=undefined
+97 Cube.002 prims=1 mats=[21] tris=606 verts=572 extrasKeys=["colorValue"]
+98 Cube.003 prims=1 mats=[22] tris=276 verts=208 extrasKeys=undefined
+TOTAL_TRIS 164938
+
+MATERIALS
+0 -glass baseColor=[1,1,1,0] metallic=0 roughness=0 alpha=MASK doubleSided=true emissive=undefined tex={} ext=["KHR_materials_transmission"]
+1 metal-brushed-ext baseColor=undefined metallic=0 roughness=undefined alpha=OPAQUE doubleSided=true emissive=undefined tex={"mr":2,"normal":0,"ao":1} ext=[]
+2 metal-glossy-ext baseColor=undefined metallic=0 roughness=0.08249996602535248 alpha=OPAQUE doubleSided=true emissive=undefined tex={"ao":3} ext=[]
+3 shadow-planes baseColor=undefined metallic=0 roughness=0.5 alpha=BLEND doubleSided=true emissive=undefined tex={"base":4} ext=[]
+4 metal-glossy baseColor=undefined metallic=0 roughness=0.24318182468414307 alpha=OPAQUE doubleSided=true emissive=undefined tex={"ao":5} ext=[]
+5 -ruby baseColor=[0.14054718613624573,0.04256661981344223,0.1448890119791031,1] metallic=0 roughness=0 alpha=OPAQUE doubleSided=true emissive=undefined tex={} ext=["KHR_materials_transmission","KHR_materials_ior"]
+6 metal-geneva baseColor=undefined metallic=0 roughness=0 alpha=OPAQUE doubleSided=true emissive=undefined tex={"normal":6,"ao":7} ext=[]
+7 metal-brushed baseColor=undefined metallic=0 roughness=undefined alpha=OPAQUE doubleSided=true emissive=undefined tex={"mr":10,"normal":8,"ao":9} ext=[]
+8 metal-glossy-no-bake baseColor=undefined metallic=0 roughness=0 alpha=OPAQUE doubleSided=true emissive=undefined tex={} ext=[]
+9 day-ring baseColor=undefined metallic=0 roughness=0.5 alpha=OPAQUE doubleSided=true emissive=undefined tex={"base":11} ext=[]
+10 -moon baseColor=undefined metallic=0 roughness=0.5 alpha=OPAQUE doubleSided=true emissive=undefined tex={"base":12} ext=[]
+11 moon-bg baseColor=undefined metallic=0 roughness=0.5 alpha=OPAQUE doubleSided=true emissive=undefined tex={"base":13} ext=[]
+12 automaticChronograph baseColor=undefined metallic=0 roughness=0 alpha=BLEND doubleSided=true emissive=undefined tex={"base":15,"normal":14} ext=[]
+13 glow baseColor=[0.800000011920929,0.800000011920929,0.800000011920929,1] metallic=0 roughness=0.5 alpha=BLEND doubleSided=true emissive=undefined tex={"base":16} ext=[]
+14 dial baseColor=undefined metallic=0 roughness=0 alpha=OPAQUE doubleSided=true emissive=undefined tex={"ao":17} ext=[]
+15 fs60p baseColor=undefined metallic=0 roughness=0 alpha=BLEND doubleSided=true emissive=undefined tex={"base":19,"normal":18} ext=[]
+16 white baseColor=[0.800000011920929,0.800000011920929,0.800000011920929,1] metallic=0 roughness=0.07647725939750671 alpha=OPAQUE doubleSided=true emissive=undefined tex={"ao":20} ext=[]
+17 -numbers-nekst baseColor=[0.800000011920929,0.800000011920929,0.800000011920929,1] metallic=0 roughness=0 alpha=BLEND doubleSided=true emissive=undefined tex={"base":23,"normal":21,"ao":22} ext=[]
+18 grey.6 baseColor=[0.6005512475967407,0.6005512475967407,0.6005512475967407,1] metallic=0 roughness=0.5 alpha=OPAQUE doubleSided=true emissive=undefined tex={} ext=[]
+19 white.001 baseColor=[0.800000011920929,0.800000011920929,0.800000011920929,1] metallic=0 roughness=0 alpha=OPAQUE doubleSided=true emissive=undefined tex={"ao":24} ext=[]
+20 white-no-bake baseColor=[0.800000011920929,0.800000011920929,0.800000011920929,1] metallic=0 roughness=0.6590909361839294 alpha=OPAQUE doubleSided=true emissive=undefined tex={} ext=[]
+21 single-metal-brushed baseColor=undefined metallic=undefined roughness=undefined alpha=OPAQUE doubleSided=true emissive=undefined tex={"mr":26,"normal":25} ext=[]
+22 single-metal-glossy baseColor=undefined metallic=undefined roughness=0 alpha=OPAQUE doubleSided=true emissive=undefined tex={} ext=[]
+
+TEXTURES
+0 source=0 mime=image/png uri=null bytes=66800 sampler=0
+1 source=1 mime=image/jpeg uri=null bytes=711659 sampler=0
+2 source=2 mime=image/png uri=null bytes=64593 sampler=0
+3 source=1 mime=image/jpeg uri=null bytes=711659 sampler=0
+4 source=undefined mime=undefined uri=null bytes=? sampler=0
+5 source=4 mime=image/jpeg uri=null bytes=143723 sampler=0
+6 source=5 mime=image/png uri=null bytes=394491 sampler=0
+7 source=4 mime=image/jpeg uri=null bytes=143723 sampler=0
+8 source=0 mime=image/png uri=null bytes=66800 sampler=0
+9 source=4 mime=image/jpeg uri=null bytes=143723 sampler=0
+10 source=2 mime=image/png uri=null bytes=64593 sampler=0
+11 source=6 mime=image/png uri=null bytes=26731 sampler=0
+12 source=7 mime=image/jpeg uri=null bytes=2400 sampler=0
+13 source=8 mime=image/png uri=null bytes=1019 sampler=0
+14 source=9 mime=image/png uri=null bytes=30840 sampler=0
+15 source=10 mime=image/png uri=null bytes=16225 sampler=0
+16 source=11 mime=image/png uri=null bytes=97970 sampler=0
+17 source=1 mime=image/jpeg uri=null bytes=711659 sampler=0
+18 source=12 mime=image/png uri=null bytes=11673 sampler=0
+19 source=13 mime=image/png uri=null bytes=8461 sampler=0
+20 source=1 mime=image/jpeg uri=null bytes=711659 sampler=0
+21 source=14 mime=image/png uri=null bytes=38822 sampler=0
+22 source=15 mime=image/png uri=null bytes=30891 sampler=0
+23 source=16 mime=image/png uri=null bytes=27808 sampler=0
+24 source=1 mime=image/jpeg uri=null bytes=711659 sampler=0
+25 source=0 mime=image/png uri=null bytes=66800 sampler=0
+26 source=2 mime=image/png uri=null bytes=64593 sampler=0
+
+ANIMATIONS
+
+SKINS []
+VARIANTS []

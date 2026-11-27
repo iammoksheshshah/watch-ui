@@ -1,0 +1,12 @@
+[
+  { "scroll": 28400, "wait": 4500 },
+  { "eval": "(() => { const list = [...document.querySelectorAll('[data-section]')].map(e => { const r = e.getBoundingClientRect(); return [e.dataset.section, Math.round(r.top), Math.round(r.bottom)]; }).filter(([, t, b]) => b > -100 && t < innerHeight + 100); const cw = document.querySelector('[data-section=Colors] .config-w').getBoundingClientRect(); return JSON.stringify({ y: Math.round(scrollY), visible: list, cw: { top: Math.round(cw.top), w: Math.round(cw.width), h: Math.round(cw.height) } }); })()" },
+  { "shot": "shots/colors/31-silver.png" },
+  { "log": "click gold", "click": "[data-section='Colors'] .circle-svg g[data-config='third']", "wait": 4500 },
+  { "shot": "shots/colors/32-gold.png" },
+  { "eval": "(() => { const s = document.querySelector('[data-section=Colors]'); const cs = getComputedStyle(s); return JSON.stringify({ first: cs.getPropertyValue('--first-color').trim(), selected: [...document.querySelectorAll('[data-section=Colors] .info-w .name .selected')].map(e => e.textContent.trim()) }); })()" },
+  { "log": "click rose", "click": "[data-section='Colors'] .circle-svg g[data-config='fourth']", "wait": 4500 },
+  { "shot": "shots/colors/33-rose.png" },
+  { "log": "click black", "click": "[data-section='Colors'] .circle-svg g[data-config='second']", "wait": 4500 },
+  { "shot": "shots/colors/34-black.png" }
+]

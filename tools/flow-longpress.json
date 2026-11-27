@@ -1,0 +1,12 @@
+[
+  { "scroll": 0, "wait": 3000 },
+  { "shot": "shots/longpress/01-idle.png" },
+  { "eval": "(() => { const t = document.querySelector('#app') || document.body; t.dispatchEvent(new MouseEvent('mousedown', { bubbles: true, clientX: 700, clientY: 400 })); return JSON.stringify({ cls: document.documentElement.className, lenis: !!window.lenis }); })()" },
+  { "wait": 3200 },
+  { "eval": "(() => ({ cls: document.documentElement.className, scrollY: Math.round(scrollY) }))()" },
+  { "shot": "shots/longpress/02-holding.png" },
+  { "eval": "(() => { const t = document.querySelector('#app') || document.body; t.dispatchEvent(new MouseEvent('mouseup', { bubbles: true, clientX: 700, clientY: 400 })); return 'up'; })()" },
+  { "wait": 2000 },
+  { "eval": "(() => ({ cls: document.documentElement.className }))()" },
+  { "shot": "shots/longpress/03-released.png" }
+]

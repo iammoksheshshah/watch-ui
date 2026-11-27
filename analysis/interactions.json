@@ -1,0 +1,76 @@
+{
+  "captured_at": "2026-11-27",
+  "browser": "Chrome 158.0.8127.38 headless via CDP (port 9222)",
+  "origin": "https://thewatch.60fps.fr/",
+  "viewport": { "width": 1440, "height": 900 },
+  "document": {
+    "scrollHeightAt900": 34586,
+    "scrollHeightAt804": 31335,
+    "sections": 14,
+    "webglViews": 9
+  },
+  "color_swap": [
+    {
+      "step": "initial",
+      "action": "none",
+      "css_first_color": "#2B282E",
+      "css_second_color": "#B9B6BD",
+      "selected": "Silver Steel",
+      "counter": "01 / 04",
+      "screenshot": "shots/colors/31-silver.png"
+    },
+    {
+      "step": "gold",
+      "action": "click [data-section='Colors'] .circle-svg g[data-config='third']",
+      "css_first_color": "#B3A07C",
+      "css_second_color": "#FFFFE1",
+      "selected": "Pure Gold",
+      "counter": "03 / 04",
+      "screenshot": "shots/colors/32-gold.png"
+    },
+    {
+      "step": "rose",
+      "action": "click [data-section='Colors'] .circle-svg g[data-config='fourth']",
+      "css_first_color": "#D7CFC8",
+      "css_second_color": "#B3A99F",
+      "selected": "Rose Gold",
+      "counter": "04 / 04",
+      "screenshot": "shots/colors/33-rose.png"
+    },
+    {
+      "step": "black",
+      "action": "click [data-section='Colors'] .circle-svg g[data-config='second']",
+      "css_first_color": "#000000",
+      "css_second_color": "#2B2B2B",
+      "selected": "Deep Black",
+      "counter": "02 / 04",
+      "screenshot": "shots/colors/34-black.png"
+    }
+  ],
+  "longpress": {
+    "trigger": "synthetic mousedown on #app, held 3200 ms",
+    "root_class_before": "lenis lenis-smooth",
+    "root_class_holding": "lenis lenis-smooth lenis-stopped",
+    "root_class_after_release": "lenis lenis-smooth",
+    "scroll_while_holding": 0,
+    "visual_effect": "camera/watch zoom from full body to dial close-up",
+    "screenshots": [
+      "shots/longpress/01-idle.png",
+      "shots/longpress/02-holding.png",
+      "shots/longpress/03-released.png"
+    ]
+  },
+  "rea_scenario": {
+    "evidence_id": "ev_214308af032b96f51501834d07806ed39b236f5617dc199fb0216a3af27c47a8",
+    "summary_evidence_id": "ev_883d127203740edfb98b5b02cb795c9c9b84d36827cab3e0a8ce77b0f86228bd",
+    "steps": [
+      "goto https://thewatch.60fps.fr/",
+      "wait 10000 ms",
+      "click [data-section='Intro'] .circle-svg g[data-config='third']",
+      "wait 5000 ms",
+      "click [data-section='Intro'] .circle-svg g[data-config='fourth']",
+      "wait 5000 ms"
+    ],
+    "result": "all actions completed; accessibility captured after each step"
+  }
+}

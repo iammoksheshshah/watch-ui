@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>FS 60P — The timeless automatic watch</title>
+		<meta name="description" content="FS 60P — a 38 mm automatic watch, reduced to what matters. Calibre FS-01, 42-hour power reserve, edition of 500." />
+		<meta name="theme-color" content="#EBEBEB" />
+		<meta property="og:title" content="FS 60P — The timeless automatic watch" />
+		<meta property="og:description" content="A 38 mm automatic watch, reduced to what matters." />
+		<meta property="og:type" content="website" />
+
+		<link
+			rel="icon"
+			href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23111'/%3E%3Ccircle cx='32' cy='32' r='21' fill='none' stroke='%23EBEBEB' stroke-width='2'/%3E%3Crect x='31' y='16' width='2' height='17' rx='1' fill='%23EBEBEB'/%3E%3Crect x='32' y='31' width='11' height='2' rx='1' fill='%23EBEBEB'/%3E%3C/svg%3E"
+		/>
+
+		<style>
+			#loader {
+				position: fixed;
+				inset: 0;
+				background: #ebebeb;
+				z-index: 1000;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				pointer-events: all;
+				transition: opacity 0.9s cubic-bezier(0.65, 0, 0.35, 1), visibility 0.9s;
+			}
+			#loader.is-done {
+				opacity: 0;
+				visibility: hidden;
+			}
+			#loader svg {
+				position: absolute;
+				inset: -100%;
+				margin: auto;
+				max-width: 95%;
+				max-height: 95%;
+				min-width: 500px;
+			}
+			#loader .loader-label {
+				font-size: 11px;
+				letter-spacing: 0.02em;
+				color: #111;
+				font-family: Inter, system-ui, sans-serif;
+			}
+			#loader .loader-label span {
+				color: #0007;
+			}
+			@media (min-width: 1024px) {
+				#loader svg {
+					max-width: 80%;
+					max-height: 80%;
+				}
+				#loader .loader-label {
+					font-size: 0.8333333333vw;
+				}
+			}
+			.progress-arc {
+				transform: rotate(-180deg) scale(-1, 1);
+				transform-origin: center;
+				stroke-dasharray: 2168;
+				stroke-dashoffset: 2168;
+				animation: fill-circle 1.25s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+			}
+			@keyframes fill-circle {
+				from {
+					stroke-dashoffset: 2168;
+				}
+				to {
+					stroke-dashoffset: 0;
+				}
+			}
+		</style>
+
+		<script type="module" src="/src/main.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<div id="loader" aria-hidden="true">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 700 700">
+					<path stroke-opacity="1" stroke="#dcdcdc" stroke-width="1" d="M350 695c190.538 0 345-154.462 345-345S540.538 5 350 5 5 159.462 5 350s154.462 345 345 345Z" />
+					<path class="progress-arc" stroke-opacity="1" stroke-width="3" stroke="#c9c9c9" stroke-linecap="round" d="M350 695c190.538 0 345-154.462 345-345S540.538 5 350 5 5 159.462 5 350s154.462 345 345 345Z" />
+				</svg>
+				<div class="loader-label"><span>Now</span> loading</div>
+			</div>
+
+			<div id="bg"></div>
+			<div id="canvas-wrapper"></div>
+			<div id="grain" aria-hidden="true"></div>
+
+			<div id="root">
+				<header class="topbar">
+					<a class="brand" href="#top" aria-label="60fps — back to top">
+						<span class="brand-mark">60fps</span>
+						<span class="brand-sub">Atelier</span>
+					</a>
+					<p class="topbar-mid">FS 60P — Edition 01</p>
+					<a class="topbar-cta" href="#reserve">Reserve <span aria-hidden="true">↗</span></a>
+				</header>
+
+				<main id="top">
+					<!-- 00 · Intro -->
+					<section class="section intro" data-theme="light" data-view="hero">
+						<div class="intro-head">
+							<p class="eyebrow"><span class="dot"></span> Automatic · 38 mm · Sapphire</p>
+							<h1 class="hero-title" aria-label="FS 60P">
+								<span class="word"><span class="char">F</span><span class="char">S</span></span>
+								<span class="word word-gap"><span class="char">6</span><span class="char">0</span><span class="char">P</span></span>
+							</h1>
+						</div>
+
+						<div class="intro-foot">
+							<div class="config-block">
+								<span class="foot-label">Colour</span>
+								<div class="swatches" role="group" aria-label="Case colour">
+									<button class="swatch is-active" data-metal="silver" aria-pressed="true">
+										<span class="swatch-dot" style="--sw: #cfd2d6"></span>Silver Steel
+									</button>
+									<button class="swatch" data-metal="black" aria-pressed="false">
+										<span class="swatch-dot" style="--sw: #24262a"></span>Deep Black
+									</button>
+									<button class="swatch" data-metal="gold" aria-pressed="false">
+										<span class="swatch-dot" style="--sw: #d8b25e"></span>Pure Gold
+									</button>
+									<button class="swatch" data-metal="rose" aria-pressed="false">
+										<span class="swatch-dot" style="--sw: #d8a58e"></span>Rose Gold
+									</button>
+								</div>
+							</div>
+
+							<div class="scroll-cue" aria-hidden="true">
+								<span>Scroll to explore</span>
+								<span class="scroll-line"><i></i></span>
+							</div>
+
+							<div class="weight-block">
+								<span class="foot-label">Model</span>
+								<span class="weight">146 gr</span>
+							</div>
+						</div>
+					</section>
+
+					<!-- 01 · Timeless -->
+					<section class="section timeless" data-theme="light" data-view="timeless">
+						<div class="timeless-inner">
+							<p class="kicker"><span class="kicker-num">01</span> The object</p>
+
+							<p class="timeless-big" aria-label="The timeless automatic 38 mm watch">
+								<span class="line">the</span>
+								<span class="line">timeless</span>
+								<span class="line">automatic</span>
+								<span class="line">38&nbsp;mm</span>
+								<span class="line">watch<svg class="line-arrow" width="18" height="37" viewBox="0 0 18 37" fill="none" aria-hidden="true"><path d="M17.86.554h-3.673L.148 36.736h3.673z" fill="currentColor" /></svg></span>
+							</p>
+
+							<div class="timeless-notes">
+								<article class="note">
+									<p class="caption">Chronograph</p>
+									<p class="note-text">
+										A modern reading of the chronograph — precise engineering, restrained aesthetics, and a dial that rewards a second look.
+									</p>
+								</article>
+								<article class="note">
+									<p class="caption">Automatic movement</p>
+									<p class="note-text">
+										A high-performance automatic calibre keeps a smooth, continuous motion, visible in every detail of the dial.
+									</p>
+								</article>
+							</div>
+						</div>
+					</section>
+
+					<!-- 02 · Vertical -->
+					<section class="section vertical" data-theme="light" data-view="vertical">
+						<div class="vertical-inner">
+							<div class="vertical-left">
+								<p class="kicker"><span class="kicker-num">02</span> The details</p>
+
+								<article class="vertical-block">
+									<p class="caption">Case &amp; finishes</p>
+									<p class="small-title">
+										The case alternates polished and satin-brushed surfaces, catching light in narrow, deliberate bands.
+									</p>
+								</article>
+
+								<article class="vertical-block">
+									<p class="caption">Dial &amp; complications</p>
+									<p class="small-title">
+										A layered dial with fine textures and balanced subdials — built for clarity, depth, and a quiet identity.
+									</p>
+								</article>
+							</div>
+
+							<div class="vertical-title" aria-hidden="true">
+								<p>FS</p>
+								<p><span class="v-space"></span>60P</p>
+							</div>
+						</div>
+					</section>
+
+					<!-- 03 · Disassembly -->
+					<section class="section disassembly" data-theme="dark" data-view="explode">
+						<div class="disassembly-stage">
+							<div class="disassembly-head">
+								<p class="kicker"><span class="kicker-num">03</span> Anatomy</p>
+								<h2 class="display">Inside<br />the FS 60P.</h2>
+								<p class="instruction">Scroll to open · Select a part to explore</p>
+							</div>
+
+							<nav class="parts-nav" aria-label="Watch parts">
+								<button data-part="crystal"><span class="pn-index">01</span><span class="pn-name">Crystal</span></button>
+								<button data-part="bezel"><span class="pn-index">02</span><span class="pn-name">Bezel</span></button>
+								<button data-part="dial"><span class="pn-index">03</span><span class="pn-name">Dial</span></button>
+								<button data-part="hands"><span class="pn-index">04</span><span class="pn-name">Hands</span></button>
+								<button data-part="movement"><span class="pn-index">05</span><span class="pn-name">Movement</span></button>
+								<button data-part="caseback"><span class="pn-index">06</span><span class="pn-name">Caseback</span></button>
+							</nav>
+
+							<aside class="part-panel" aria-live="polite">
+								<div class="part-panel-head">
+									<p class="part-panel-index">01 / 06</p>
+									<button class="part-close" aria-label="Close part details">×</button>
+								</div>
+								<h3 class="part-panel-title">Crystal</h3>
+								<p class="part-panel-text">Domed sapphire, anti-reflective on both faces. 1.8 mm, virtually unscratchable.</p>
+							</aside>
+
+							<div class="disassembly-foot">
+								<span>Calibre FS-01</span>
+								<span>28,800 vph · 42 h</span>
+								<span>24 jewels</span>
+							</div>
+						</div>
+					</section>
+
+					<!-- 04 · Outro -->
+					<section class="section outro" id="reserve" data-theme="light" data-view="outro">
+						<div class="outro-inner">
+							<p class="kicker"><span class="kicker-num">04</span> Availability</p>
+							<h2 class="display">Own time.</h2>
+
+							<div class="price-row">
+								<span class="price">€1,450</span>
+								<span class="price-note">Edition 01 — 500 pieces<br />Individually numbered</span>
+							</div>
+
+							<a class="cta" href="#top">
+								<span>Reserve yours</span>
+								<span class="cta-arrow" aria-hidden="true">→</span>
+							</a>
+
+							<p class="fineprint">Free worldwide shipping · 5-year warranty · 30-day returns</p>
+						</div>
+					</section>
+				</main>
+
+				<footer class="footer">
+					<div class="footer-brand">60fps</div>
+					<nav class="footer-nav" aria-label="Footer">
+						<a href="#top">Top</a>
+						<a href="#reserve">Reserve</a>
+						<a href="#top">Instagram</a>
+						<a href="#top">Contact</a>
+					</nav>
+					<p class="footer-note">© 2026 60fps Atelier — Designed in Paris, assembled in the Jura.</p>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>

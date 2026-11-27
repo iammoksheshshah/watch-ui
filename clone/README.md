@@ -33,7 +33,9 @@ trees: 3306 bytes each, SHA-256 `ab2f33fe628d779c67edde460c0979595b3233e4ea19f7d
 Every section, heading, control and part entry matched. CDP screenshots at scroll
 0, 2500, 6000 and 12000 px are in `../shots/mirror/` and show the original
 3D watch hero and the dark particle "highly precise automatic movement"
-scene rendering with the shipped bundles. See `../analysis/DEEP-ANALYSIS.md`.
+scene rendering with the shipped bundles. See `../analysis/DEEP-ANALYSIS.md`,
+`../analysis/README.md` for the artifact index and the root `README.md` for the
+project overview.
 
 The mirror ships the same hashed entry bundles the live origin still serves
 (`index-Ck-pEZ8v.js`, `index-DSKOTUpi.css`). A later live capture differs from
